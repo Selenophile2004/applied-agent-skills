@@ -5,7 +5,7 @@ license: MIT
 metadata:
   source: https://github.com/undefdev/token-efficiency
   upstream-blob: cf31795d8e02a3a2dffb7634264e926422eb7777
-  customization: General-purpose Codex execution; 2026-11-02
+  customization: General-purpose agent execution; 2026-11-02
 ---
 
 # Token efficiency
@@ -35,3 +35,11 @@ Read only the reference that changes how to perform the current task. Combine mo
 - Other software, debugging, APIs and system tasks: [software and systems](references/software-and-systems.md).
 
 For other work, apply the core without inventing a special process. Do not reload unchanged guidance each turn. For simple questions, use the global defaults without unnecessary file reads. Claim savings only from actual measurements.
+
+## Task contract
+
+Inputs: Current brief, required artifacts, source handles and evidence already in context.
+
+Deliver: Complete artifact and relevant checks; observed waste/usage findings when an audit is requested.
+
+Acceptance: Summaries retain recovery handles; ambiguity expands the read; complete outputs and required checks are preserved; savings are measured or unknown.

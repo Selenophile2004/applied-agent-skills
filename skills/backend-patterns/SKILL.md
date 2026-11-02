@@ -4,7 +4,7 @@ description: Implement backend APIs, data access, caches and jobs for Node.js/Ty
 metadata:
   source: https://github.com/WorldFlowAI/everything-claude-code
   source-commit: 432485ba6b92c14fb357276a98957f348bcff9ee
-  adaptation: Codex; English; task-scoped; 2026-11-02
+  adaptation: Agent Skills; English; task-scoped; 2026-11-02
 ---
 
 # Backend implementation patterns
@@ -21,3 +21,15 @@ Use for implementing or materially changing Node.js/TypeScript services, Express
 - Make focused changes and reuse existing libraries/runtime. Do not add infrastructure, dependencies or deployments solely to conform to a pattern.
 
 For implementation illustrations, search the relevant API, Database, Caching, Error Handling, Authorization or Background Jobs heading in [upstream reference](https://github.com/WorldFlowAI/everything-claude-code/blob/432485ba6b92c14fb357276a98957f348bcff9ee/skills/backend-patterns/SKILL.md). Read only needed sections. The samples require validation against current library APIs; do not copy them as complete middleware, authorization or durable-queue implementations.
+
+## Specialized cases and output contract
+
+For substantive relevant work, read [the applied workflow](references/transactional-api-cases.md). Keep unrelated references unloaded.
+
+## Task contract
+
+Inputs: Existing stack/contracts, data invariants, tenancy, durability requirements and tests.
+
+Deliver: Focused implementation/design, contract/invariant notes and relevant failure-path verification.
+
+Acceptance: No blind write retries; concurrency invariants; tenant-safe cache/invalidation; durable required jobs; justified infrastructure.

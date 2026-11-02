@@ -35,3 +35,11 @@ For long documents, translate in coherent sections, maintain a consistent glossa
 ## Default output
 
 If the user asks only for translation, return the translation without unnecessary study aids. If they also ask for comprehension help, use compact headings such as "Translation", "Key concepts", "Summary", and "Comprehension check", adapting them to the target language.
+
+## Task contract
+
+Inputs: Source, target language, audience, register and translation/explanation mode.
+
+Deliver: Structured translation; optional terminology ledger, difficult-concept explanation and comprehension questions.
+
+Acceptance: Negation, uncertainty, values and citations retain meaning; explanations are separated from source claims; partial coverage is explicit.

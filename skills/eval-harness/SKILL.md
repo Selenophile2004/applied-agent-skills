@@ -4,7 +4,7 @@ description: Evaluate agent and AI-workflow quality with representative cases, r
 metadata:
   source: https://github.com/WorldFlowAI/everything-claude-code
   source-commit: 432485ba6b92c14fb357276a98957f348bcff9ee
-  adaptation: Codex; English; task-scoped; 2026-11-02
+  adaptation: Agent Skills; English; task-scoped; 2026-11-02
 ---
 
 # Agent and workflow evaluation
@@ -26,4 +26,16 @@ Use pass@1 for observed first-attempt success. If reporting pass@k or all-k succ
 
 Deliver a concise results table and evidence links with actionable failures. Reuse existing acceptance checks; avoid arbitrary coverage thresholds and repeated runs after adequate verification.
 
-For optional historical examples, consult [upstream reference](https://github.com/WorldFlowAI/everything-claude-code/blob/432485ba6b92c14fb357276a98957f348bcff9ee/skills/eval-harness/SKILL.md). Its Claude commands, storage paths, thresholds and examples are illustrative, not Codex configuration.
+For optional historical examples, consult [upstream reference](https://github.com/WorldFlowAI/everything-claude-code/blob/432485ba6b92c14fb357276a98957f348bcff9ee/skills/eval-harness/SKILL.md). Its Claude commands, storage paths, thresholds and examples are illustrative, not portable host configuration.
+
+## Specialized cases and output contract
+
+For substantive relevant work, read [the applied workflow](references/retrieval-agent-cases.md). Keep unrelated references unloaded.
+
+## Task contract
+
+Inputs: Baseline/candidate versions, representative cases, observable criteria, fixtures and available telemetry.
+
+Deliver: Per-case comparisons, grading methods, evidence handles, regressions, unrun cases and actual cost/latency.
+
+Acceptance: Same conditions; executable and model-judged checks distinguished; repaired attempts not counted as first-attempt successes; unknown metrics remain unknown.

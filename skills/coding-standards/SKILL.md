@@ -4,7 +4,7 @@ description: Apply maintainable TypeScript, JavaScript, React and Node.js conven
 metadata:
   source: https://github.com/WorldFlowAI/everything-claude-code
   source-commit: 432485ba6b92c14fb357276a98957f348bcff9ee
-  adaptation: Codex; English; task-scoped; 2026-11-02
+  adaptation: Agent Skills; English; task-scoped; 2026-11-02
 ---
 
 # Coding standards
@@ -22,3 +22,11 @@ Use when establishing coding conventions, implementing substantial TypeScript/Ja
 - Run meaningful affected checks and required project checks. Do not mandate tests for trivial reversible edits, require blanket TDD, or invent a universal 80% coverage gate.
 
 For examples of naming, types, React, APIs and test organization, search the matching heading in [upstream reference](https://github.com/WorldFlowAI/everything-claude-code/blob/432485ba6b92c14fb357276a98957f348bcff9ee/skills/coding-standards/SKILL.md). Read only useful sections. Its absolute style prescriptions and snippets are illustrative; current repository contracts and this entrypoint govern adaptation.
+
+## Task contract
+
+Inputs: Changed modules, project conventions, public contracts, existing checks and intended behavior.
+
+Deliver: Focused implementation/review with material rationale and observed validation.
+
+Acceptance: Runtime validation complements types; correct React updates/dependencies; preserved error causes; project-appropriate checks.

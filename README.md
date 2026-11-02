@@ -1,50 +1,58 @@
-# Codex Skill Library
+# Applied Agent Skills
 
-Reusable English-language skills maintained by Selenophile2004 for analysis, translation, consulting proposals, agent evaluation and software development. Instructions are English; outputs follow the user's requested language.
+Specialized, evidence-led workflows for **Claude Code, Claude custom-skills environments and Codex**, maintained by Selenophile2004. Instructions are English; outputs follow the requested language.
 
-## Skills
+Each workflow has independent inputs, deliverables, acceptance criteria and an applied example. Core instructions stay focused; specialist references load only when relevant.
 
-| Skill | Purpose |
+## Choose a workflow
+
+### Consulting and decision design
+
+| Workflow | Specialized result |
 |---|---|
-| token-efficiency | Reduce redundant context and tool usage while preserving complete, verified results |
-| deep-translation-comprehension | Faithful translation, concept explanation and reading comprehension |
-| issue-tree | Decompose decision questions into actionable investigation trees |
-| mece-framework | Audit overlap, coverage and logical levels in structures |
-| consulting-proposal-content | Develop modular proposal content, solution phases, execution tables and deep dives |
-| consulting-proposal-writing | Turn agreed content into evidence-based proposals and slide storylines |
-| persian-landscape-proposals | Produce editable Persian RTL decks using a user-supplied authorized template |
-| eval-harness | Evaluate agent/workflow quality, regressions and measured execution cost |
-| security-review | Review application and agent security boundaries |
-| backend-patterns | Implement APIs, database access, caching and background jobs |
-| coding-standards | Maintain TypeScript/JavaScript/React/Node.js code with appropriate checks |
+| [Decision Diagnosis and Evidence Planning](skills/issue-tree/README.md) | Answerable question tree, leaf-level evidence plan and prioritized next investigation. |
+| [Structural Completeness and Overlap Audit](skills/mece-framework/README.md) | Overlap/gap diagnosis, revised categories, inclusion/exclusion rules and placement stress test. |
+| [Modular Consulting Proposal Development](skills/consulting-proposal-content/README.md) | M1A situation/consequences; M2 alternatives/phases; M1B approved direction; M3 execution table; selected M4 deep dives. |
+| [Consulting Storylines and Slide Manifests](skills/consulting-proposal-writing/README.md) | Document brief, argument spine and slide manifest with ID, message, evidence/status, visual form and unresolved input. |
+| [Editable Persian RTL PowerPoint Production](skills/persian-landscape-proposals/README.md) | Editable PPTX, actual-template inventory, text/structure reconciliation and per-slide visual QA status. |
 
-Each folder under skills/ contains a SKILL.md entrypoint. Supporting references load only when needed. These are instructions, not background services, automatically executing agents or bundled model access.
+### Agent reliability and execution
 
-## Install
+| Workflow | Specialized result |
+|---|---|
+| [Token-Efficient Research and Artifact Production](skills/token-efficiency/README.md) | Complete artifact and relevant checks; observed waste/usage findings when an audit is requested. |
+| [Agent Reliability and Regression Evaluation](skills/eval-harness/README.md) | Per-case comparisons, grading methods, evidence handles, regressions, unrun cases and actual cost/latency. |
+| [Application and Agent Trust-Boundary Review](skills/security-review/README.md) | Findings with severity, location, trigger, evidence, impact and fix; hypotheses and untested surfaces labeled. |
 
-Copy an individual skills/<name> folder into your user skills directory:
+### Software implementation
 
-- Windows: %USERPROFILE%\.agents\skills\<name>
-- macOS/Linux: ~/.agents/skills/<name>
+| Workflow | Specialized result |
+|---|---|
+| [Transactional APIs, Tenant Caches and Durable Jobs](skills/backend-patterns/README.md) | Focused implementation/design, contract/invariant notes and relevant failure-path verification. |
+| [TypeScript and React Correctness Standards](skills/coding-standards/README.md) | Focused implementation/review with material rationale and observed validation. |
 
-The installed folder must contain SKILL.md directly. Compare existing same-name skills before replacing them. Codex supports implicit matching by description; you can explicitly mention a skill as $token-efficiency or $security-review. Restart if newly installed skills do not appear.
+### Language and knowledge
 
-To use economical defaults across tasks, merge examples/global-instructions.md into the active global instruction file (normally ~/.codex/AGENTS.md). Preserve existing instructions. If CODEX_HOME or an AGENTS.override.md changes the active location, use that active file. Adjust the installed skill path in the example if needed.
+| Workflow | Specialized result |
+|---|---|
+| [Technical Translation and Concept Comprehension](skills/deep-translation-comprehension/README.md) | Structured translation; optional terminology ledger, difficult-concept explanation and comprehension questions. |
 
-## Usage examples
+## Install and use
 
-- Use $token-efficiency to build the requested report with complete analysis and only relevant tool output.
-- Use $eval-harness to define representative agent cases and compare a candidate against a baseline.
-- Use $security-review to review tenant authorization and tool access in this agent application.
-- Use $consulting-proposal-content to draft only the requested proposal module.
-- Use $persian-landscape-proposals with my authorized template and agreed manifest.
+- [Claude Code, Claude chat/Cowork and Codex](docs/installation.md)
+- [Compatibility and actual verification limits](docs/compatibility.md)
+- [Download individual skill ZIPs](https://github.com/Selenophile2004/applied-agent-skills/releases/latest)
 
-## Requirements and scope
+Invoke /skill-name in Claude Code or $skill-name in Codex. In Claude chat enable the individual uploaded skill. Install only relevant workflows.
 
-No paid assets, proprietary templates, credentials or client data are bundled. File production requires suitable host tooling and any requested template/assets. Some consulting workflow phases intentionally preserve explicit content-approval gates. Context efficiency does not waive those gates or other authorization requirements.
+## Consulting workflow example
 
-No percentage of token savings or performance is promised. Quality and actual usage must be evaluated on the intended tasks.
+Use issue-tree to frame the investigation, mece-framework where structural auditing helps, consulting-proposal-content for requested modules, consulting-proposal-writing for agreed storylines, and persian-landscape-proposals for editable template-based production. Select stages according to the actual task; this is not a mandatory all-skills pipeline.
 
-## Licenses
+## Requirements
 
-See LICENSE, each skill's LICENSE/NOTICE and THIRD_PARTY_NOTICES.md. Some skills are personal adaptations of existing work; attribution is retained. No affiliation with or endorsement by an organization or platform is implied.
+No model access, background service, proprietary templates, font bundles, credentials or client data are bundled. Available tools and actual permissions control execution. Existing approval gates and necessary checks remain. Token savings and performance require actual measurements.
+
+## Provenance
+
+Original instructions, maintained adaptations and retained licensed material are distinguished in [attribution](THIRD_PARTY_NOTICES.md), [root license](LICENSE) and per-skill LICENSE/NOTICE. No platform or organizational endorsement is implied.

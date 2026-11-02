@@ -25,3 +25,15 @@ Use the current request, agreed content manifest, verified facts and actual temp
 - After corrections, verify affected pages and shared dependencies again. Deliver the editable deck and requested exports with an accurate statement of any unverified rendering/font limitation.
 
 For new storyline work use consulting-proposal-writing when useful. For content/phase design use consulting-proposal-content. This skill implements agreed content rather than silently changing it.
+
+## Specialized cases and output contract
+
+For substantive relevant work, read [the applied workflow](references/template-and-rtl-qa.md). Keep unrelated references unloaded.
+
+## Task contract
+
+Inputs: Authorized template, agreed manifest, fonts/assets, requested exports and approved legal/contact text.
+
+Deliver: Editable PPTX, actual-template inventory, text/structure reconciliation and per-slide visual QA status.
+
+Acceptance: Actual layouts/placeholders retained; editable charts; all final slides rendered/inspected; missing renderer/font checks disclosed.

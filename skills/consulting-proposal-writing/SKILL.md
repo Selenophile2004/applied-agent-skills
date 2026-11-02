@@ -19,3 +19,15 @@ Create a proposal that connects the audience's decision to a credible approach, 
 7. Deliver the requested narrative or a slide manifest with slide number, purpose, action title, core content, evidence, visual form and input status. Include only material unresolved items.
 
 For content development, use the companion consulting-proposal-content skill when useful. For requested editable Persian PowerPoint production, hand the agreed manifest to persian-landscape-proposals. These companions are available in this repository; no proprietary method guide, organizational branding or template is included.
+
+## Specialized cases and output contract
+
+For substantive relevant work, read [the applied workflow](references/storyline-handoff.md). Keep unrelated references unloaded.
+
+## Task contract
+
+Inputs: Audience decision, agreed content/scope, evidence ledger, language and output format.
+
+Deliver: Document brief, argument spine and slide manifest with ID, message, evidence/status, visual form and unresolved input.
+
+Acceptance: Each slide advances one supported message; titles alone express the argument; on-slide copy and author notes remain separate.

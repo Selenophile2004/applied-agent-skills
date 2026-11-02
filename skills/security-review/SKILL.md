@@ -4,7 +4,7 @@ description: Review application and agent security when requested or when changi
 metadata:
   source: https://github.com/WorldFlowAI/everything-claude-code
   source-commit: 432485ba6b92c14fb357276a98957f348bcff9ee
-  adaptation: Codex; English; task-scoped; 2026-11-02
+  adaptation: Agent Skills; English; task-scoped; 2026-11-02
 ---
 
 # Security review
@@ -30,3 +30,15 @@ Use safe local tests or authorized environments. Active exploitation of unrelate
 When implementing fixes, preserve intended behavior and check the affected boundary. Do not run automatic audit fixes, add approval ceremonies or impose arbitrary test percentages.
 
 For topic-specific historical examples, consult [upstream reference](https://github.com/WorldFlowAI/everything-claude-code/blob/432485ba6b92c14fb357276a98957f348bcff9ee/skills/security-review/SKILL.md). Verify framework/version semantics before adapting any snippet; its examples are not complete production security implementations.
+
+## Specialized cases and output contract
+
+For substantive relevant work, read [the applied workflow](references/trust-boundary-cases.md). Keep unrelated references unloaded.
+
+## Task contract
+
+Inputs: Changed routes/tools, data flow, caller identity, authorization policy and authorized fixtures.
+
+Deliver: Findings with severity, location, trigger, evidence, impact and fix; hypotheses and untested surfaces labeled.
+
+Acceptance: Object/tenant policy enforced server-side; tool privileges independent of model assertions; redacted secrets; explicit coverage gaps.
