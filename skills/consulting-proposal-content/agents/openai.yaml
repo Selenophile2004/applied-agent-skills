@@ -1,0 +1,7 @@
+interface:
+  display_name: "Consulting Proposal Content Development"
+  short_description: "Modular consulting proposal content workflow"
+  default_prompt: "Use $consulting-proposal-content to develop only the requested proposal module and stop at its approval gate."
+
+policy:
+  allow_implicit_invocation: true

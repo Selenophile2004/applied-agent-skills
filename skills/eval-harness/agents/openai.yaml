@@ -1,0 +1,5 @@
+interface:
+  display_name: "Agent & Workflow Evals"
+  short_description: "Measure agent quality, regressions and execution cost"
+policy:
+  allow_implicit_invocation: true

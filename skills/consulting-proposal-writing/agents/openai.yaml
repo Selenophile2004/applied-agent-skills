@@ -1,0 +1,5 @@
+interface:
+  display_name: "Consulting Proposal Writing"
+  short_description: "Evidence-based proposals and coherent slide storylines"
+policy:
+  allow_implicit_invocation: true

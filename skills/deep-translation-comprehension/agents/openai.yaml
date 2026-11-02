@@ -1,0 +1,4 @@
+interface:
+  display_name: "Deep Translation & Comprehension"
+  short_description: "Accurate translation with concept explanations"
+  default_prompt: "Use $deep-translation-comprehension to translate this material and help me understand its key concepts."

@@ -1,0 +1,5 @@
+interface:
+  display_name: "Application & Agent Security"
+  short_description: "Review security boundaries with concrete evidence"
+policy:
+  allow_implicit_invocation: true

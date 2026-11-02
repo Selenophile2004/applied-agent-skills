@@ -1,0 +1,5 @@
+interface:
+  display_name: "Token Efficiency"
+  short_description: "Efficient execution across tasks without losing quality"
+policy:
+  allow_implicit_invocation: true

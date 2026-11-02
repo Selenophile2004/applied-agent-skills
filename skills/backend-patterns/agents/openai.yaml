@@ -1,0 +1,5 @@
+interface:
+  display_name: "Backend Patterns"
+  short_description: "Build reliable APIs, data access, caches and jobs"
+policy:
+  allow_implicit_invocation: true

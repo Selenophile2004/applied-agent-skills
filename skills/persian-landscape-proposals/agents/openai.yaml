@@ -1,0 +1,5 @@
+interface:
+  display_name: "Persian Landscape Proposals"
+  short_description: "Editable RTL decks with your authorized template"
+policy:
+  allow_implicit_invocation: true
