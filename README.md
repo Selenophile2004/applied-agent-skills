@@ -37,6 +37,30 @@ Each workflow has independent inputs, deliverables, acceptance criteria and an a
 |---|---|
 | [Technical Translation and Concept Comprehension](skills/deep-translation-comprehension/README.md) | Structured translation; optional terminology ledger, difficult-concept explanation and comprehension questions. |
 
+### Visual and product design
+
+| Workflow | Specialized result |
+|---|---|
+| [Distinctive Visual Direction](skills/visual-art-direction/README.md) | Distinct concepts, a selected direction, key-screen and mobile studies, and an asset brief. |
+| [Product Interaction and Recovery](skills/product-interaction-design/README.md) | User flow, state matrix, interface copy and recovery acceptance cases. |
+| [Design Tokens and Component Systems](skills/design-system-builder/README.md) | Semantic tokens, component variants, migration notes and a representative screen check. |
+
+### Platform and automation design
+
+| Workflow | Specialized result |
+|---|---|
+| [Workflow Platforms and Operator Interfaces](skills/workflow-platform-design/README.md) | Entity model, transition and permission matrices, operator views and a vertical slice. |
+| [Recoverable Workflow Automation](skills/durable-workflow-automation/README.md) | Run and step model, repeat-safe effects, recovery paths and failure checks. |
+| [API and Agent Tool Contracts](skills/integration-contract-design/README.md) | Schemas, authorization and error rules, representative calls and verification cases. |
+
+### Agent architecture and knowledge
+
+| Workflow | Specialized result |
+|---|---|
+| [Agent Workflow Architecture](skills/agent-workflow-design/README.md) | Step ownership, tool contracts, termination and recovery behavior, and a verified slice when requested. |
+| [Grounded Knowledge Retrieval](skills/knowledge-retrieval/README.md) | Retrieval design, resolvable citations and tests for missing, conflicting and restricted evidence. |
+| [Governed Analytics Agents](skills/semantic-analytics-agent/README.md) | Reproducible answers with metric definitions, filters, units, query handles and reconciliation. |
+
 ## Install and use
 
 - [Claude Code, Claude chat/Cowork and Codex](docs/installation.md)
